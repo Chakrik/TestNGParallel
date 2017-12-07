@@ -43,7 +43,7 @@ public class TestBase {
         //Set Browser to ThreadLocalMap
         if (browser !=null && !"".equals(browser)) {
 //          driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities));
-            driver.set(new RemoteWebDriver(new URL("http://192.168.99.100:31582/wd/hub"), capabilities));
+            driver.set(new RemoteWebDriver(new URL("http://192.168.99.100:30767/wd/hub"), capabilities));
         } else {
         		FirefoxDriver fxDriver = new FirefoxDriver();
             fxDriver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
